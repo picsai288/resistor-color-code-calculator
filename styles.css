@@ -1,0 +1,37 @@
+
+:root{
+  --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#94a3b8;
+  --brand:#22d3ee; --accent:#10b981; --border:#1f2937;
+  --chip:#f5deb3;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Emoji}
+.wrap{max-width:1000px;margin:12px auto;padding:12px}
+.title{font-size:20px;font-weight:800}
+.sub{color:var(--muted);margin-top:4px}
+.card{background:linear-gradient(180deg,#0b1222,#0a1429);border:1px solid var(--border);border-radius:12px;padding:12px}
+.tabs{display:flex;gap:8px;margin:10px 0}
+.tab-btn{cursor:pointer;border:1px solid var(--border);background:#0b1222;color:var(--text);padding:8px 12px;border-radius:999px}
+.tab-btn[aria-selected="true"]{background:var(--brand);color:#001018;border-color:transparent;font-weight:700}
+.panel{display:none}
+.panel.active{display:block}
+.grid{display:grid;gap:12px}
+@media(min-width:900px){ .grid{grid-template-columns:1.1fr .9fr} }
+.group{display:grid;grid-template-columns:repeat(2,minmax(120px,1fr));gap:10px}
+.field{display:flex;flex-direction:column;gap:6px}
+label{font-weight:600}
+select{appearance:none;background:#0b1222;border:1px solid var(--border);color:var(--text);padding:10px 12px;border-radius:10px}
+.res{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px}
+.res h3{margin:0 0 8px 0;font-size:16px}
+.kvs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kv{background:#0b1222;border:1px solid var(--border);padding:10px;border-radius:10px}
+.kv b{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+.kv .v{font-size:18px;font-weight:800;color:var(--accent)}
+.actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+button.copy,button.reset{cursor:pointer;border:1px solid var(--border);background:#0b1222;color:var(--text);padding:8px 12px;border-radius:10px}
+.note{color:var(--muted);font-size:12px;margin-top:10px}
+.svgbox{background:radial-gradient(80% 100% at 50% 0%,rgba(34,211,238,.08),transparent 60%);border:1px dashed #1e293b;padding:10px;border-radius:12px}
+.flex{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.badge{padding:2px 8px;border-radius:999px;background:#0b1222;border:1px solid var(--border);color:var(--muted);font-size:12px}
+.legend{display:flex;gap:8px;flex-wrap:wrap}
+.legend .chip{width:14px;height:14px;border-radius:3px;border:1px solid rgba(255,255,255,.15);display:inline-block;margin-right:6px;vertical-align:-2px}
