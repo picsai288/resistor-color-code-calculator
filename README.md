@@ -24,3 +24,5 @@ This repository contains a Chrome Extension that provides a **Resistor Color Cod
 
 ## License
 MIT — see `LICENSE` for details.
+
+Online preview at: [Free Resistor Color Code Calculator](https://mozelectronics.com/free-resistor-color-code-calculator-tool/)
