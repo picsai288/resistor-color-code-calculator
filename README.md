@@ -26,3 +26,5 @@ This repository contains a Chrome Extension that provides a **Resistor Color Cod
 MIT — see `LICENSE` for details.
 
 Online preview at: [Free Resistor Color Code Calculator](https://mozelectronics.com/free-resistor-color-code-calculator-tool/)
+And you can use this [Resistor Calculators](https://resicalc.com/en/resistor-calculators/) online, which contains 2 resistor conversion tools, such as [Parallel and Series Resistor Calculator](https://resicalc.com/en/tools/parallel-series-resistor-calculator/) and [LED Series Resistor Calculator](https://resicalc.com/en/tools/led-resistor-calculator/).
+With these tools, you can calculate parallel and series resistor networks, decode resistor color codes, and size LED current-limiting resistors with precision.
